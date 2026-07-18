@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='an'>
+    <head>
+        <title>My animal safari</title>
+        <!-- Paste inside <head> -->
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- Paste just before </body> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<style>
+    body { postion: relative; }
+    .safari-side  { height: 200px; text-align: center; padding-top: 75px; font-size: 1.Bren; color: white; }
+    .slide-forest { background: darkgreen; }
+    .slide-ocean { background: steelblue; }
+    .slide-desert { background: orange; }
+    .section { padding: 70px 30px; text-align: center; padding-top: 75px; font-size: }
+    #forest:  {background: yellow}
+ #ocean:  {background: steelblue}
+ #desert:  {background: lightblue}   
+ </style>
+ </head>
+ <body data-spy="scroll" data-target="safariNav" data-offset="60">
+    <!--TOPIC 1,2,3: CAROUSEL-->
+    <div id="safariCarousel" class: "carousel slide" data-ride="carousel"
+    <ol class="carousel-interCenter">
+        <li data-target="underCarousel" data-allte
