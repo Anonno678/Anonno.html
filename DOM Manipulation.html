@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Turtorial</title>
+        <style>
+            .alert{
+                color:aqua;
+                background: green;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="heading">Welcome</h1>
+        <p> Hello!</p>
+        <p>How are you?</p>
+        <script>
+        let div = document.createElement('div');
+        div.id = "paragraph";
+        div.className = "alert";
+        div.innerHTML = "<p>Congrats! You have created a div.</p>";
+        document.body.append(div);
+        let heading = document.getElementById("heading");
+        heading.innerHTML = '&#128524;'
+        document.querySelector('header p').innerHTML = "<strong>Good Job!</strong>";
+        </script>
+    </body>
+</html>
